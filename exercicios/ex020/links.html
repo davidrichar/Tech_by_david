@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+
+        }
+        a{
+            color: chocolate;
+            text-decoration: none;
+        }
+        .especial{
+            background-color: black;
+           
+        }
+
+        a:visited{
+            color: rgb(158, 121, 1);
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: darkcyan;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: bold;
+            color: darkcyan;
+        }
+    </style>
+    <title>Personalizando links</title>
+</head>
+<body>
+    <h1>Personalizando Link</h1>
+    <ul>
+        <li><a href="https://github.com/davidrichar" target="_blank">Repositorio GitHub</a></li>
+        <li class="especial"><a href="https://www.youtube.com/watch?v=VsH8XS_c0AI&list=RDMMVsH8XS_c0AI&start_radio=1" target="_blank">YouTube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3DqKscyJij0&list=RD3DqKscyJij0&start_radio=1" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
