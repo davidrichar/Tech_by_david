@@ -9,7 +9,8 @@ body {
     line-height: 1.6;
     background: #fff;
     color: #333;
-    padding: 0px;
+    padding: 20px;
+    padding-bottom: 60px;
 }
 
 header {
@@ -112,7 +113,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    
 }
+
 
 /* Responsividade */
 @media (max-width: 800px) {
@@ -124,6 +127,7 @@ footer {
     .skills-container {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .skill {
@@ -134,4 +138,7 @@ footer {
         align-items: center;
         gap: 10px;
     }
+    
+    
+    
 }
