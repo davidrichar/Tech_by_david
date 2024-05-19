@@ -19,10 +19,13 @@ header {
     background-image: linear-gradient(to bottom,#111339, #270F49);
 
 }
+
+
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
+    font-family:  bebas neves,Arial, Helvetica, sans-serif;
 }
 
 nav{
