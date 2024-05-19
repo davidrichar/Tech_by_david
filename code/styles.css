@@ -34,7 +34,7 @@ h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald",Arial ,sans-serif;
 }
 
 nav{
@@ -150,7 +150,7 @@ footer {
         align-items: center;
         gap: 10px;
     }
-    
+
     
     
     
