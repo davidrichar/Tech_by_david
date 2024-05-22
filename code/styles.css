@@ -117,8 +117,8 @@ section > p {
     
 }
 #img01{
-    background-image: url(imagens/padrao-de-codigo-binario-em-fundo-azul-escuro_53876-116183.jpg);
-    background-position: center center;
+    background-image: url(imagens/textura.jpg);
+    
     background-size: cover;
 }
 
@@ -150,14 +150,4 @@ section > p {
         gap: 10px;
     }
    
-    #img01{
-    
-        background-image: url(imagens/LOGOS01.png);
-        background-position: center center;
-        background-size: cover;
-        
-    
-    }
-    
-    
 }
