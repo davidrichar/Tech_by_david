@@ -135,7 +135,7 @@ section.imagem > p {
 
 
 /* Responsividade */
-@media (max-width: 800px) {
+@media  (max-width: 850px) {
     .about-me-content {
         flex-direction: column;
         text-align: center;
