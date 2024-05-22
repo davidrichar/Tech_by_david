@@ -102,33 +102,25 @@ nav{
     justify-content: center;
 }
 
+
 section.imagem{
     background-color: rgb(65, 65, 65);
     color: white;
-    text-shadow: 2px 2px 0px black;
-    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.527);
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.527);
 
 }
-section.imagem > p {
+section > p {
+    text-align: center;
+    padding: 10px;
+   
     
-        display: inline-block;
-        padding: 5px;
-        background-color: rgba(0, 0, 0, 0.411);
-        padding-left: 10px;
-        line-height: 25px;
-        margin-left: 10px;
 }
 #img01{
-    
-        background-image: url(imagens/LOGOS01.png);
-        background-position: right center;
-        background-size: cover;
-        
-    
-    }
-
-
+    background-image: url(imagens/padrao-de-codigo-binario-em-fundo-azul-escuro_53876-116183.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
 
 
