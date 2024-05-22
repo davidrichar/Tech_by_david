@@ -135,7 +135,7 @@ section.imagem > p {
 
 
 /* Responsividade */
-@media  (max-width: 850px) {
+@media  (max-width: 600px) {
     .about-me-content {
         flex-direction: column;
         text-align: center;
@@ -155,13 +155,8 @@ section.imagem > p {
         align-items: center;
         gap: 10px;
     }
-    #img01{
+   
     
-        background-image: url(imagens/LOGOS01.png);
-        background-position: right center;
-        background-size: cover;
-        
     
-    }
     
 }
