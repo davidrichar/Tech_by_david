@@ -116,6 +116,8 @@ section.imagem > p {
         padding: 5px;
         background-color: rgba(0, 0, 0, 0.411);
         padding-left: 10px;
+        line-height: 25px;
+        margin-left: 10px;
 }
 #img01{
     
@@ -156,7 +158,14 @@ section.imagem > p {
         gap: 10px;
     }
    
+    #img01{
     
+        background-image: url(imagens/LOGOS01.png);
+        background-position: center center;
+        background-size: cover;
+        
+    
+    }
     
     
 }
