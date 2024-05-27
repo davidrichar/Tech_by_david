@@ -45,9 +45,10 @@ nav{
 
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
     gap: 20px;
+  
 }
 
 
@@ -122,13 +123,6 @@ section > p {
     background-size: cover;
 }
 
-
-
-    
-
-
-
-/* Responsividade */
 @media  (max-width: 600px) {
     .about-me-content {
         flex-direction: column;
